@@ -1,0 +1,249 @@
+PS C:\Users\kolay\NeoForgeProjects\FootEconomy> .\gradlew runClient
+Calculating task graph as configuration cache cannot be reused because the file system entry '.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21.1\client-1.21.1-client-extra.jar' has been created.
+
+> Task :compileJava
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:19: error: cannot find symbol
+    public TransactionResult deposit(UUID player, int amount, TransactionContext ctx) {
+                                                              ^
+  symbol:   class TransactionContext
+  location: class EconomyManager
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:19: error: cannot find symbol
+    public TransactionResult deposit(UUID player, int amount, TransactionContext ctx) {
+           ^
+  symbol:   class TransactionResult
+  location: class EconomyManager
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:28: error: cannot find symbol
+    public TransactionResult withdraw(UUID player, int amount, TransactionContext ctx) {
+                                                               ^
+  symbol:   class TransactionContext
+  location: class EconomyManager
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:28: error: cannot find symbol
+    public TransactionResult withdraw(UUID player, int amount, TransactionContext ctx) {
+           ^
+  symbol:   class TransactionResult
+  location: class EconomyManager
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:3: error: package com.footdablit2310.footlib.api.economy does not exist
+import com.footdablit2310.footlib.api.economy.*;
+^
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:7: error: cannot find symbol
+public class EconomyProviderImpl implements EconomyProvider {
+                                            ^
+  symbol: class EconomyProvider
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:22: error: cannot find symbol
+    public TransactionResult deposit(UUID player, int amount, TransactionContext ctx) {
+                                                              ^
+  symbol:   class TransactionContext
+  location: class EconomyProviderImpl
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:22: error: cannot find symbol
+    public TransactionResult deposit(UUID player, int amount, TransactionContext ctx) {
+           ^
+  symbol:   class TransactionResult
+  location: class EconomyProviderImpl
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:27: error: cannot find symbol
+    public TransactionResult withdraw(UUID player, int amount, TransactionContext ctx) {
+                                                               ^
+  symbol:   class TransactionContext
+  location: class EconomyProviderImpl
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:27: error: cannot find symbol
+    public TransactionResult withdraw(UUID player, int amount, TransactionContext ctx) {
+           ^
+  symbol:   class TransactionResult
+  location: class EconomyProviderImpl
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:3: error: package com.footdablit2310.footlib.api.economy does not exist
+import com.footdablit2310.footlib.api.economy.*;
+^
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\FootEconomyEntrypoint.java:3: error: cannot find symbol
+import com.footdablit2310.footlib.api.FootLibAPI;
+                                     ^
+  symbol:   class FootLibAPI
+  location: package com.footdablit2310.footlib.api
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\FootEconomyEntrypoint.java:4: error: cannot find symbol
+import com.footdablit2310.footlib.api.FootLibEntrypoint;
+                                     ^
+  symbol:   class FootLibEntrypoint
+  location: package com.footdablit2310.footlib.api
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\FootEconomyEntrypoint.java:6: error: cannot find symbol
+public class FootEconomyEntrypoint implements FootLibEntrypoint {
+                                              ^
+  symbol: class FootLibEntrypoint
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\FootEconomyEntrypoint.java:11: error: cannot find symbol
+    public void onInitialize(FootLibAPI api) {
+                             ^
+  symbol:   class FootLibAPI
+  location: class FootEconomyEntrypoint
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:21: error: cannot find symbol
+            return TransactionResult.fail("Invalid deposit amount");
+                   ^
+  symbol:   variable TransactionResult
+  location: class EconomyManager
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:25: error: cannot find symbol
+        return TransactionResult.success(newBalance);
+               ^
+  symbol:   variable TransactionResult
+  location: class EconomyManager
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:30: error: cannot find symbol
+            return TransactionResult.fail("Invalid withdrawal amount");
+                   ^
+  symbol:   variable TransactionResult
+  location: class EconomyManager
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:35: error: cannot find symbol
+            return TransactionResult.fail("Insufficient funds");
+                   ^
+  symbol:   variable TransactionResult
+  location: class EconomyManager
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:39: error: cannot find symbol
+        return TransactionResult.success(newBalance);
+               ^
+  symbol:   variable TransactionResult
+  location: class EconomyManager
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:11: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:16: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:21: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:26: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\FootEconomyEntrypoint.java:10: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+25 errors
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/kolay/NeoForgeProjects/FootEconomy/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:19: error: cannot find symbol
+      public TransactionResult deposit(UUID player, int amount, TransactionContext ctx) {
+                                                                ^
+    symbol:   class TransactionContext
+    location: class EconomyManager
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:19: error: cannot find symbol
+      public TransactionResult deposit(UUID player, int amount, TransactionContext ctx) {
+             ^
+    symbol:   class TransactionResult
+    location: class EconomyManager
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:28: error: cannot find symbol
+      public TransactionResult withdraw(UUID player, int amount, TransactionContext ctx) {
+                                                                 ^
+    symbol:   class TransactionContext
+    location: class EconomyManager
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:28: error: cannot find symbol
+      public TransactionResult withdraw(UUID player, int amount, TransactionContext ctx) {
+             ^
+    symbol:   class TransactionResult
+    location: class EconomyManager
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:22: error: cannot find symbol
+      public TransactionResult deposit(UUID player, int amount, TransactionContext ctx) {
+                                                                ^
+    symbol:   class TransactionContext
+    location: class EconomyProviderImpl
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:22: error: cannot find symbol
+      public TransactionResult deposit(UUID player, int amount, TransactionContext ctx) {
+             ^
+    symbol:   class TransactionResult
+    location: class EconomyProviderImpl
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:27: error: cannot find symbol
+      public TransactionResult withdraw(UUID player, int amount, TransactionContext ctx) {
+                                                                 ^
+    symbol:   class TransactionContext
+    location: class EconomyProviderImpl
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:27: error: cannot find symbol
+      public TransactionResult withdraw(UUID player, int amount, TransactionContext ctx) {
+             ^
+    symbol:   class TransactionResult
+    location: class EconomyProviderImpl
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\FootEconomyEntrypoint.java:3: error: cannot find symbol
+  import com.footdablit2310.footlib.api.FootLibAPI;
+                                       ^
+    symbol:   class FootLibAPI
+    location: package com.footdablit2310.footlib.api
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\FootEconomyEntrypoint.java:4: error: cannot find symbol
+  import com.footdablit2310.footlib.api.FootLibEntrypoint;
+                                       ^
+    symbol:   class FootLibEntrypoint
+    location: package com.footdablit2310.footlib.api
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\FootEconomyEntrypoint.java:11: error: cannot find symbol
+      public void onInitialize(FootLibAPI api) {
+                               ^
+    symbol:   class FootLibAPI
+    location: class FootEconomyEntrypoint
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:21: error: cannot find symbol
+              return TransactionResult.fail("Invalid deposit amount");
+                     ^
+    symbol:   variable TransactionResult
+    location: class EconomyManager
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:25: error: cannot find symbol
+          return TransactionResult.success(newBalance);
+                 ^
+    symbol:   variable TransactionResult
+    location: class EconomyManager
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:30: error: cannot find symbol
+              return TransactionResult.fail("Invalid withdrawal amount");
+                     ^
+    symbol:   variable TransactionResult
+    location: class EconomyManager
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:35: error: cannot find symbol
+              return TransactionResult.fail("Insufficient funds");
+                     ^
+    symbol:   variable TransactionResult
+    location: class EconomyManager
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:39: error: cannot find symbol
+          return TransactionResult.success(newBalance);
+                 ^
+    symbol:   variable TransactionResult
+    location: class EconomyManager
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:11: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:16: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:21: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:26: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\FootEconomyEntrypoint.java:10: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:7: error: cannot find symbol
+  public class EconomyProviderImpl implements EconomyProvider {
+                                              ^
+    symbol: class EconomyProvider
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\FootEconomyEntrypoint.java:6: error: cannot find symbol
+  public class FootEconomyEntrypoint implements FootLibEntrypoint {
+                                                ^
+    symbol: class FootLibEntrypoint
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyManager.java:3: error: package com.footdablit2310.footlib.api.economy does not exist
+  import com.footdablit2310.footlib.api.economy.*;
+  ^
+  C:\Users\kolay\NeoForgeProjects\FootEconomy\src\main\java\com\footdablit2310\footeconomy\EconomyProviderImpl.java:3: error: package com.footdablit2310.footlib.api.economy does not exist
+  import com.footdablit2310.footlib.api.economy.*;
+  ^
+  25 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (powered by Develocity).
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 19s
+27 actionable tasks: 1 executed, 26 up-to-date
+Configuration cache entry stored.
+PS C:\Users\kolay\NeoForgeProjects\FootEconomy> 
