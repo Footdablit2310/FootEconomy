@@ -96,11 +96,10 @@ configurations {
     runtimeClasspath.extendsFrom localRuntime
 }
 dependencies {
-    implementation "net.neoforged:neoforge:${neo_version.replace('xx', '+')}"
+    implementation "net.neoforged:neoforge:${neo_version}"
 
     // FootLib dependency (API + runtime)
-    compileOnly files("libs/footlib-${footlib_version}.jar")
-    runtimeOnly files("libs/footlib-${footlib_version}.jar")
+    implementation files("libs/footlib-${footlib_version}.jar")
 
     // Example optional mod dependency with JEI
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
